@@ -20,12 +20,6 @@ const Links = [
   { name: "About Us", path: "/" },
   { name: "FaQ", path: "/" },
 ];
-
-const navVariants = {
-  hidden: { opacity: 0, y: -20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.4 } },
-};
-
 const linkContainerVariants = {
   hidden: {},
   visible: {
