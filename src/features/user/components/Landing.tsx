@@ -43,7 +43,7 @@ const Landing = () => {
           variants={fadeInUp}
           initial="hidden"
           animate="visible"
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.4 ,delay: 0.1}}
           className="text-center text-white max-w-3xl"
         >
           <h1 className="text-3xl md:text-5xl font-semibold mb-2">

@@ -42,10 +42,7 @@ const linkItemVariants = {
 
 const NavBar = () => {
   return (
-    <motion.nav
-      variants={navVariants}
-      initial="hidden"
-      animate="visible"
+    <nav
       className="h-[8svh] md:h-[10dvh] w-full flex items-center justify-around bg-gray-100 shadow-sm z-50"
     >
       {/* Logo */}
@@ -107,7 +104,7 @@ const NavBar = () => {
       >
         Login
       </motion.button>
-    </motion.nav>
+    </nav>
   );
 };
 
