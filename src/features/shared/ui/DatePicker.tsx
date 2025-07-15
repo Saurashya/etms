@@ -13,7 +13,7 @@ import {
 
 export function DatePicker() {
   const [date, setDate] = React.useState<Date>()
-  const [today,setToday] = React.useState<Date>(new Date())  
+  const today = new Date()
 
   return (
     <Popover>
