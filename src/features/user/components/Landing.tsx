@@ -26,7 +26,7 @@ const containerStagger = {
 
 const Landing = () => {
   return (
-    <div className="w-full h-[70vh] md:h-screen relative overflow-hidden">
+    <div className="w-full h-[70vh] md:h-full relative overflow-hidden">
       {/* Background Image */}
       <Image
         src="/landing-bg.png"
